@@ -1,0 +1,17 @@
+.ColorPicker {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.ColorPickerContents {
+  text-align: center;
+  border: 1px solid black;
+  width: 70%;
+}
+
+.ColorPickerButtons {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}

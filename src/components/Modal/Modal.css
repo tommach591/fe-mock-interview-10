@@ -1,0 +1,41 @@
+.Modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: -10rem;
+  left: 0px;
+  font-family: cursive;
+}
+
+.Inner {
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.Correct {
+  color: rgb(45, 146, 115);
+}
+
+.Incorrect {
+  color: rgb(211, 80, 80);
+}
+
+.Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.ModalButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

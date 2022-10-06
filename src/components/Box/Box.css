@@ -1,0 +1,11 @@
+.Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ColoredBox {
+  border: 1px solid black;
+  width: 25rem;
+  height: 20rem;
+}

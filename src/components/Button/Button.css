@@ -1,0 +1,26 @@
+.Button {
+  border: 1px solid black;
+  padding: 0.75rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 6rem;
+  font-family: cursive;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Button:active {
+  background-color: rgb(194, 218, 255);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

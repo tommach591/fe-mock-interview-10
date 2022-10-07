@@ -1,12 +1,13 @@
 import { useState, useEffect, useCallback } from "react";
-import "./ColorPicker.css";
+import "./ColorGuesser.css";
 import { GetRandomColor } from "../../utils/helper";
+import HomeButton from "../HomeButton";
 import Score from "../Score";
 import Box from "../Box";
 import Button from "../Button";
 import Modal from "../Modal";
 
-function ColorPicker() {
+function ColorGuesser() {
   const [score, setScore] = useState(0);
   const [color, setColor] = useState(GetRandomColor());
   const [modalOn, setModalOn] = useState(true);
@@ -69,11 +70,12 @@ function ColorPicker() {
   }, []);
 
   return (
-    <div className="ColorPicker">
-      <div className="ColorPickerContents">
+    <div className="ColorGuesser">
+      <HomeButton />
+      <div className="ColorGuesserContents">
         <Score score={score} />
         <Box color={color} />
-        <div className="ColorPickerButtons">{buttons}</div>
+        <div className="ColorGuesserButtons">{buttons}</div>
         {modalOn ? (
           <Modal
             color={color}
@@ -90,4 +92,4 @@ function ColorPicker() {
   );
 }
 
-export default ColorPicker;
+export default ColorGuesser;

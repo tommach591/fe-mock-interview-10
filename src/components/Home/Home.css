@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  height: 90vh;
+  width: 100vw;
+}
+
+.HomeContents {
+  text-align: center;
+}
+
+.LinkButton {
+  border: 1px solid black;
+  width: 15rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: large;
+  margin: 1rem;
+}

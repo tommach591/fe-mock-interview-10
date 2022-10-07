@@ -1,16 +1,16 @@
-.ColorPicker {
+.ColorGuesser {
   display: flex;
   justify-content: center;
   padding: 1rem;
 }
 
-.ColorPickerContents {
+.ColorGuesserContents {
   text-align: center;
   border: 1px solid black;
   width: 70%;
 }
 
-.ColorPickerButtons {
+.ColorGuesserButtons {
   display: flex;
   justify-content: center;
   padding: 2rem;

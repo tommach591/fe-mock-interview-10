@@ -6,7 +6,7 @@ import PokemonTypeMatchup from "../PokemonTypeMatchup";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App noselect">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/colorguesser" element={<ColorPicker />} />

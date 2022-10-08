@@ -16,8 +16,8 @@
   padding: 2rem;
 }
 
-.TypeDisplay {
-  margin-top: 5rem;
+.GameDisplay {
+  margin-top: 2rem;
   margin-bottom: 10rem;
   display: flex;
   justify-content: center;
@@ -25,13 +25,13 @@
   flex-direction: column;
 }
 
-.Type {
+.PokemonName {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   height: 3rem;
-  width: 15rem;
-  margin: 0.5rem;
+  width: 20rem;
+  margin-bottom: 2.5rem;
   font-family: cursive;
+  font-size: larger;
 }

@@ -78,11 +78,12 @@ function ColorGuesser() {
         <div className="ColorGuesserButtons">{buttons}</div>
         {modalOn ? (
           <Modal
-            color={color}
+            answer={color}
             choice={choice}
             reset={() => {
               resetGame();
             }}
+            game={0}
           />
         ) : (
           <div />

@@ -6,6 +6,10 @@ export const GetRandomColor = () => {
   return randomNumber.padStart(6, 0);
 };
 
+export const ToCaps = (text) => {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+};
+
 export async function getData(url) {
   try {
     let response = await fetch(url);
@@ -15,7 +19,28 @@ export async function getData(url) {
   }
 }
 
-export const TypeWeakness = {
+export const TypeColor = {
+  normal: "AAAA99",
+  fire: "FF4422",
+  water: "3399FF",
+  electric: "FFCC33",
+  grass: "77CC55",
+  ice: "66CCFF",
+  fighting: "BB5544",
+  poison: "AA5599",
+  ground: "DDBB55",
+  flying: "8899FF",
+  psychic: "FF5599",
+  bug: "AABB22",
+  rock: "BBAA66",
+  ghost: "6666BB",
+  dragon: "7766EE",
+  dark: "775544",
+  steel: "AAAABB",
+  fairy: "EE99EE",
+};
+
+export const TypeAdvantages = {
   normal: {
     normal: 1,
     fire: 1,
@@ -179,10 +204,10 @@ export const TypeWeakness = {
   ground: {
     normal: 1,
     fire: 1,
-    water: 0.5,
+    water: 2,
     electric: 0,
-    grass: 0.5,
-    ice: 0.5,
+    grass: 2,
+    ice: 2,
     fighting: 1,
     poison: 0.5,
     ground: 1,

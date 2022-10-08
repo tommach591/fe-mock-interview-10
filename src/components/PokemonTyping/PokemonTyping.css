@@ -1,0 +1,14 @@
+.PokemonTyping {
+  height: 10rem;
+}
+
+.Type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 3rem;
+  width: 15rem;
+  margin: 0.5rem;
+  font-family: cursive;
+}
